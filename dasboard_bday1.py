@@ -53,12 +53,18 @@ image2 = get_image_from_url(image_url2)
 #st.image(image1, caption='Gambar dari Google Drive 1', use_column_width=True)
 st.image(image2, caption='Kue Digitalnya Hidayah', use_column_width=True)
 # ------------------------------------
-# Tautan berbagi untuk file audio di Google Drive
-audio_url = "https://drive.google.com/file/d/19MqO_8Jk5uZt36NndQIDEIXlNfcFFmpL"
+# URL raw file audio di GitHub
+audio_url = "https://github.com/Emmaru2/Birthday_cie/raw/main/Good_Morning_to_All(chosic.com).mp3"
 
 # Menampilkan file audio menggunakan st.audio
-# st.audio(audio_url, format='audio/mp3')
-st.audio(audio_url)
+st.audio(audio_url, format='audio/mp3')
+
+# # Tautan berbagi untuk file audio di Google Drive
+# audio_url = "https://drive.google.com/file/d/19MqO_8Jk5uZt36NndQIDEIXlNfcFFmpL"
+
+# # Menampilkan file audio menggunakan st.audio
+# # st.audio(audio_url, format='audio/mp3')
+# st.audio(audio_url)
 # -------------------------------------------
 # try:
 #     winsound.Beep(264, 250)
