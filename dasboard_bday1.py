@@ -162,16 +162,16 @@ st.audio(audio_url)
 #     time.sleep(250/2000.0)
 
 
-    def colorful_text(text):
-        colored_text = ""
-        colors = ['#B5C0D0', '#CCD3CA', '#F5E8DD', '#EED3D9', '#EFBC9B', '#FBF3D5', '#D6DAC8', '#9CAFAA']
-        color_index = 0
-        for char in text:
-            colored_text += f'<span style="color:{colors[color_index]}; font-weight:bold">{char}</span>'
-            color_index = (color_index + 1) % len(colors)
-        return colored_text
+def colorful_text(text):
+    colored_text = ""
+    colors = ['#B5C0D0', '#CCD3CA', '#F5E8DD', '#EED3D9', '#EFBC9B', '#FBF3D5', '#D6DAC8', '#9CAFAA']
+    color_index = 0
+    for char in text:
+        colored_text += f'<span style="color:{colors[color_index]}; font-weight:bold">{char}</span>'
+        color_index = (color_index + 1) % len(colors)
+    return colored_text
 
-    st.markdown(f'<p style="font-size:30px">{colorful_text("HAPPY BIRTHDAY FALAQUN NURUL HIDAYAH <3")}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="font-size:30px">{colorful_text("HAPPY BIRTHDAY FALAQUN NURUL HIDAYAH <3")}</p>', unsafe_allow_html=True)
 
 # except Exception as e:
 #     st.error(f"Error: {e}")
