@@ -42,15 +42,15 @@ def get_image_from_url(url):
     return img
 
 # URL gambar di Google Drive
-#image_url1 = "https://drive.google.com/uc?id=1VUZbHx4Al9vFcfMJ3APK0tf4BdY_iSg5"
+image_url1 = "https://drive.google.com/uc?id=1VUZbHx4Al9vFcfMJ3APK0tf4BdY_iSg5"
 image_url2 = "https://drive.google.com/uc?id=1h63np0iXuyqwQYOA9rIXzcvt5Ic1cbSK"
 
 # Mendapatkan gambar dari URL
-#image1 = get_image_from_url(image_url1)
+image1 = get_image_from_url(image_url1)
 image2 = get_image_from_url(image_url2)
 
 # Tampilkan gambar
-#st.image(image1, caption='Gambar dari Google Drive 1', use_column_width=True)
+st.image(image1, caption='Gambar dari Google Drive 1', use_column_width=True)
 st.image(image2, caption='Kue Digitalnya Hidayah', use_column_width=True)
 # ------------------------------------
 # URL raw file audio di GitHub
