@@ -63,7 +63,7 @@ st.audio(audio_url, format='audio/mp3')
 
 def colorful_text(text):
     colored_text = ""
-    colors = ['#222831', '#31363F', '#76ABAE', '#EEEEEE', '#35374B', '#344955', '#50727B', '#78A083', '#070F2B', '#1B1A55', '#535C91', '#9290C3']
+    colors = ['#222831', '#31363F', '#76ABAE', '#35374B', '#344955', '#50727B', '#78A083', '#070F2B', '#1B1A55', '#535C91', '#9290C3']
     color_index = 0
     for char in text:
         colored_text += f'<span style="color:{colors[color_index]}; font-weight:bold">{char}</span>'
