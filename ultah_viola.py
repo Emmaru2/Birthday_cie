@@ -27,7 +27,7 @@ name = "Viola "
 
 st.header("              Barallah fii umrik Zuvia Laviola             ")   
 st.markdown("                    Created By Emma                        ")
-st.write("it's your brithday 🎉! Selamat ulang tahun BESTIEE! Semoga tahun ini membawa kamu lebih dekat pada impianmu dan membahagiakanmu sebanyak yang kamu bahagiakan orang lain. Dan semoga segala keinginan dan goals dalam hidupmu bisa tercapai di tahun ini. Aamiinnnn")
+st.write("it's your brithday 🎉! Selamat ulang tahun BESTIEE! Semoga apa yang kamu inginkan atau kamu rencanakan tercapai dan adalah yang terbaik, kalo ada tantangan di depan hadapi yaa!! atau kalo dapat jalan buntu, jangan ragu buat  coba cara lain, susah bukan berarti ngga bisa kann!? Semangattt AANAAKKKUUUU!!!!!")
 
 
 from PIL import Image
